@@ -1,0 +1,53 @@
+.card{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color:rgb(240, 242, 245) ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    
+}
+.card_header{
+    display: flex;
+    gap: 5px;
+    color: gray;
+
+}
+.card_header_id {
+    margin-top: 5px;
+    font-size: 1rem;
+}
+.card_header span{
+    font-size: 1.8rem;
+    align-items: center;
+    color: black;
+    
+}
+.card_task{
+    
+    font-size: 1rem;
+    
+}
+.card_state{
+    margin-right: 5px;
+}
+.card_priority{
+    font-size: 1.1rem;
+    margin-right: 10px;
+    margin-left: 5px;
+    color: rgb(81, 81, 81);
+}
+.card_tag{
+    color: rgb(162, 162, 162);
+    font-size: 0.65rem;
+    
+}
+.card_bottom{
+    font-size: 0.85rem;
+}
+.profile{
+    margin-left: 170px;
+}
